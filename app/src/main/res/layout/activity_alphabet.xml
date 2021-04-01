@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_screen_background"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="20dp"
+    tools:context=".activities.categories.AlphabetActivity">
+
+    <GridView
+        android:id="@+id/alphabetGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="@dimen/alphabet_horizontal_spacing"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:verticalSpacing="@dimen/alphabet_vertical_spacing" />
+
+</LinearLayout>

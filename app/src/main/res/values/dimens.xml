@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Category tiles/images size.  -->
+    <dimen name="category_tile_size">100dp</dimen>
+    <dimen name="category_image_size">60dp</dimen>
+
+    <!--  Card view corner radius values.  -->
+    <dimen name="cardView_corner_radius">10dp</dimen>
+    <dimen name="category_corner_radius">10dp</dimen>
+
+    <!--  Margin between the category image and text.  -->
+    <dimen name="category_image_text_margin">15dp</dimen>
+
+    <!--  Category GridView vertical spacing.  -->
+    <dimen name="category_vertical_spacing">4dp</dimen>
+
+    <!--  Alphabet GridView vertical and horizontal spacing.  -->
+    <dimen name="alphabet_horizontal_spacing">20dp</dimen>
+    <dimen name="alphabet_vertical_spacing">20dp</dimen>
+
+</resources>

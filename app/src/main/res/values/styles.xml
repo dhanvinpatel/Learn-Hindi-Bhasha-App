@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Home screen category.  -->
+    <style name="home_screen_category">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/kalam</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--  Category words.  -->
+    <style name="category_words">
+        <item name="android:textStyle">bold</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">16sp</item>
+        <item name="android:autoSizeMaxTextSize">20sp</item>
+        <item name="android:autoSizeStepGranularity">2sp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/kalam</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

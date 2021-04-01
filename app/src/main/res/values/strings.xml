@@ -1,0 +1,35 @@
+<resources>
+    <!--  Application name.  -->
+    <string name="app_name">Learn Hindi Bhasha</string>
+    <string name="app_title">Bhasha</string>
+    <string name="title_slogan">Learning made easy.</string>
+
+    <!--  Category names.  -->
+    <string name="category_numbers">Numbers</string>
+    <string name="category_alphabet">Alphabets</string>
+    <string name="category_colours">Colours</string>
+    <string name="category_animals">Animals</string>
+    <string name="category_birds">Birds</string>
+    <string name="category_greetings">Greetings</string>
+    <string name="category_family">Family</string>
+    <string name="category_calendar">Calendar</string>
+    <string name="category_time">Time</string>
+    <string name="category_weather">Weather</string>
+    <string name="category_food">Food</string>
+    <string name="category_spices">Spices</string>
+    <string name="category_fruits">Fruits</string>
+    <string name="category_vegetables">Vegetables</string>
+    <string name="category_directions">Directions</string>
+    <string name="category_body">Body</string>
+
+    <!--  Action Bar  -->
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search</string>
+
+    <!--  ImageView and ImageButton description.  -->
+    <string name="word_image_description">Image related to the word clicked.</string>
+    <string name="image_button_description">Image of a volume icon.</string>
+    <string name="category_image_description">Image for a particular category.</string>
+    <string name="main_screen_image">Image for main screen.</string>
+
+</resources>

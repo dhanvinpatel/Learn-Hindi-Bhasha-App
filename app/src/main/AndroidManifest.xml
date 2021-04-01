@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bhasha.learnhindibhasha">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearnHindiBhasha">
+        <activity
+            android:name=".activities.categories.BodyActivity"
+            android:label="@string/category_body"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.BirdsActivity"
+            android:label="@string/category_birds"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.DirectionsActivity"
+            android:label="@string/category_directions"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.WeatherActivity"
+            android:label="@string/category_weather"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.FamilyActivity"
+            android:label="@string/category_family"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.SpicesActivity"
+            android:label="@string/category_spices"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.AnimalsActivity"
+            android:label="@string/category_animals"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.TimeActivity"
+            android:label="@string/category_time"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.AlphabetActivity"
+            android:label="@string/category_alphabet"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.FoodActivity"
+            android:label="@string/category_food"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.GreetingsActivity"
+            android:label="@string/category_greetings"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.VegetablesActivity"
+            android:label="@string/category_vegetables"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.FruitsActivity"
+            android:label="@string/category_fruits"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.ColoursActivity"
+            android:label="@string/category_colours"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.CalendarActivity"
+            android:label="@string/category_calendar"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.categories.NumbersActivity"
+            android:label="@string/category_numbers"
+            android:parentActivityName=".activities.home.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.home.HomeScreenActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activities.main.MainActivity"
+            android:theme="@style/Theme.NoActionBar.">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
